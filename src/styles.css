@@ -1,6 +1,7 @@
-* {
+body {
     font-family: 'Inter', sans-serif;
     margin: 0;
+    background-color: #282D35;
 }
 
 nav {
@@ -26,4 +27,51 @@ nav {
 .nav-sub-title {
     color: #DEEBF8;
     font-weight: 600;
+}
+
+main {
+    padding: 60px 30px;
+    color: white;
+    background-image: url("../public/images/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    background-size: 10%;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+
+.main-facts {
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+.main-facts > li {
+    padding-block: 10px;
+}
+
+.main-facts > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1250px) {
+    main {
+        background-size: 15%;
+    }
+}
+
+@media only screen and (max-width: 987px) {
+    main {
+        background-size: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        background-size: 25%;
+    }
 }
