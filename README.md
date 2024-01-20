@@ -1,11 +1,12 @@
 # React Info Site
 
-### Challenge: Project setup
+### Challenge: React Info App
 
+**Project Setup**
 - Create a `components` folder
 - Create the following components in separate files inside
   the components folder.  In each one, just render an `h1` 
-  with the name of the component (e.g. return <h1>Navbar goes here</h1>):
+  with the name of the component (e.g. return `<h1>Navbar goes here</h1>`)
     - Navbar
     - Main
 - Create an App component outside the components folder (sibling to
@@ -19,3 +20,10 @@
   the `<link/>` elements instead of the @import or npm options for getting
   the fonts. You may need to do some extra research to figure out how this 
   works if you haven't done it before)
+
+**App Design**
+
+Design the two components as given in the figma design below - 
+
+  ![Alt text](react-info-app-design.png)
+
