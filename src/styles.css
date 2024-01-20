@@ -1,19 +1,29 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
-.nav {
+nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 10px;
+    padding: 30px 25px;
+    height: 60px;
+    background-color: #21222A;
 }
 
-.nav-items {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.nav-title {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 30px;
 }
 
-.logo {
-    width: 70px;
+.nav-logo {
+    height: 50px;
+}
+
+.nav-sub-title {
+    color: #DEEBF8;
+    font-weight: 600;
 }
