@@ -25,5 +25,5 @@
 
 Design the two components as given in the figma design below - 
 
-  ![Alt text](react-info-app-design.png)
+  ![React-info App Design](public/images/react-info-app-design.png)
 
