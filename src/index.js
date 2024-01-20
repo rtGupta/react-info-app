@@ -1,20 +1,6 @@
-import React from "react";
+
 import ReactDOM from "react-dom/client";
-
-import { Header } from "./components/Header";
-import { MainContent } from "./components/MainContent";
-import { Footer } from "./components/Footer";
-
+import { App } from "./App";
 import "./styles.css"
 
-function Page() {
-    return (
-        <div>
-            <Header />
-            <MainContent />
-            <Footer />
-        </div>
-    )
-}
-
-ReactDOM.createRoot(document.getElementById("root")).render(<Page />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
