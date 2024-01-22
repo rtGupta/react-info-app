@@ -28,7 +28,7 @@ Design the two components as given in the figma design below -
   ![React-info App Design](public/images/react-info-app-design.png)
 
 The design was improved to include Dark and Light Modes
-
+<div>
   <img src="public/images/react-info-app-design-light.png" width=250 height=auto>
   <img src="public/images/react-info-app-design-dark.png" width=250 height=auto>
-
+</div>
